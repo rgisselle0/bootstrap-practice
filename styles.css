@@ -1,0 +1,48 @@
+body 
+{
+  background-color: #f8000c;
+  padding: 20px;
+}
+
+.kente-block 
+{
+  height: 75px;
+  width: 75px;
+}
+
+.block1 
+{ 
+  background-color: #f8000c; 
+}
+.block2 
+{ 
+  background-color: #000000; 
+}
+.block3 
+{ 
+  background-color: #d9129d; 
+}
+
+@media (max-width: 768px) 
+{
+  .kente-block {
+      height: 50px;
+      width: 50px;
+  }
+}
+
+@media (max-width: 576px) 
+{
+  .kente-block {
+      height: 40px;
+      width: 40px;
+  }
+}
+
+@media (max-width: 375px) 
+{
+  .kente-block {
+      height: 30px;
+      width: 30px;
+  }
+}
